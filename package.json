@@ -1,0 +1,28 @@
+{
+  "name": "prometheus-wrapper",
+  "description": "Wrapper package to query Prometheus and Alertmanager servers.",
+  "license": "MIT",
+  "version": "0.0.1",
+  "author": {
+    "name": "Stefan de Jong"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steve2507/prometheus-wrapper"
+  },
+  "bugs": {
+    "url": "https://github.com/steve2507/prometheus-wrapper/issues",
+    "email": "stefan.de.jong@xible.io"
+  },
+  "keywords": [
+    "prometheus",
+    "alert",
+    "alertmanager"
+  ],
+  "scripts": {
+    "prepublishOnly": "npm shrinkwrap --only=prod"
+  },
+  "dependencies": {
+    "oohttp": "*"
+  }
+}
