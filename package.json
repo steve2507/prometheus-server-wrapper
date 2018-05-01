@@ -1,5 +1,5 @@
 {
-  "name": "prometheus-wrapper",
+  "name": "prometheus-server-wrapper",
   "description": "Wrapper package to query Prometheus and Alertmanager servers.",
   "license": "MIT",
   "version": "0.0.1",
